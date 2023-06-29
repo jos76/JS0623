@@ -16,6 +16,7 @@ public class ToolFactory {
 
     /**
      * Attempts to retrieve a tool instance for the given code.
+     *
      * @param toolCode the code for which to retrieve the tool instance.
      * @return the tool instance or null if one could not be found.
      */

@@ -17,10 +17,29 @@ public enum ToolType {
      */
     JACKHAMMER("Jackhammer", 2.99f, true, false, false);
 
+    /**
+     * The friendly name of this tool type.
+     */
     public final String name;
+
+    /**
+     * The daily charge of this tool type.
+     */
     public final float dailyCharge;
+
+    /**
+     * True if this tool has a weekday charge, otherwise false.
+     */
     public final boolean weekdayCharge;
+
+    /**
+     * True if this tool has a weekend charge, otherwise false.
+     */
     public final boolean weekendCharge;
+
+    /**
+     * True if this tool has a holiday charge, otherwise false.
+     */
     public final boolean holidayCharge;
 
     ToolType(String name, float dailyCharge, boolean weekdayCharge, boolean weekendCharge, boolean holidayCharge) {
